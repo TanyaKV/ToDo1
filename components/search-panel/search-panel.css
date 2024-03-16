@@ -1,0 +1,41 @@
+.search-panel {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+@media screen and (max-width: 500px){
+    .btn-group{
+        margin-top: 7px;
+    }
+}
+
+.bottom-panel .form-control {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+    font-size: 15px;
+    line-height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 9px;
+}
+.bottom-panel{
+    margin-bottom: 55px;
+}
+
+.btn {
+    font-size: 17px;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+    background: none;
+}
+.btn-group .btn{
+    border: 1px solid #000;
+}
+.btn-info{
+    color: white;
+    background-color: #542d62;
+}

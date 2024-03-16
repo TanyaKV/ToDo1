@@ -1,0 +1,18 @@
+.todo-list{    
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 10px;
+
+}
+.todo-list .list-group-item {
+    margin-right: 15px;
+    padding: 10px 0;
+    list-style: none;
+}
+.todo-list-item {
+    /* width: auto;
+    flex-grow: 1; */
+    word-break: break-all;
+}

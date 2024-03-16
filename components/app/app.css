@@ -1,0 +1,10 @@
+.todo-app {
+    margin: 100px auto 0 auto;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 500px){
+    .todo-app{
+        max-width: 100%;
+    }
+}
